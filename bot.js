@@ -5,7 +5,7 @@ const developers = ['510463644535095297'];
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`mmM`,'https://www.twitch.tv/WE')
+  client.user.setGame(`511`,'https://www.twitch.tv/WE')
   client.user.setStatus("idle")
 });
 
