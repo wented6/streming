@@ -21,7 +21,7 @@ if (message.content.startsWith('SeDAst21q.a')) {
 client.user.setActivity(argresult , {type:'LISTENING'});
     message.channel.send(` ${argresult} \` `)
 } else 
-if (message.content.startsWith('Wee')) {
+if (message.content.startsWith('3tb')) {
   client.user.setGame(argresult, "https://www.twitch.tv/WE");
   client.user.setStatus("idle")
    message.channel.send(`${argresult} \` `)
