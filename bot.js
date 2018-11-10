@@ -24,7 +24,7 @@ client.user.setActivity(argresult , {type:'LISTENING'});
 if (message.content.startsWith('3tb')) {
   client.user.setGame(argresult, "https://www.twitch.tv/WE");
   client.user.setStatus("idle")
-   message.channel.send(`:white_check_mark:  \` `)
+   message.channel.send(`:white_check_mark:  \` `).then(msg => {msg.delete(3500);
 }
 });
 
