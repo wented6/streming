@@ -3,10 +3,12 @@ const client = new Discord.Client();
 const developers = ['510463644535095297'];
 
 
+const Discord = require("discord.js");
+const client = new Discord.Client();
 client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`511`,'https://www.twitch.tv/WE')
-  client.user.setStatus("idle")
+  client.user.setGame(`Weeee.
+`,'https://www.twitch.tv/By:A7MD');
+  console.log('لقد تعلمت أن هناك شيئا بنّاء يأتي من كل هزيمة');
 });
 
 client.on('message', message => {
